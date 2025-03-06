@@ -5,7 +5,11 @@ import HeroSection from '@/components/HeroSection';
 import GameplaySection from '@/components/GameplaySection';
 import EvolutionSection from '@/components/EvolutionSection';
 import ClassesSection from '@/components/ClassesSection';
+import AllClassesSection from '@/components/AllClassesSection';
 import WorldSection from '@/components/WorldSection';
+import WorldDetailsSection from '@/components/WorldDetailsSection';
+import MusicSection from '@/components/MusicSection';
+import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -139,7 +143,11 @@ const Index = () => {
         <GameplaySection />
         <EvolutionSection />
         <ClassesSection />
+        <AllClassesSection />
         <WorldSection />
+        <WorldDetailsSection />
+        <FAQSection />
+        <MusicSection />
       </main>
       <Footer />
     </div>
